@@ -29,5 +29,5 @@ function appendKitten(name){
 }
 
 function prependKitten(name){
-  return ["Arnold", ...name]
+  return kittens.unshift("Arnold")
 }
