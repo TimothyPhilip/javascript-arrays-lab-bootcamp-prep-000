@@ -28,4 +28,6 @@ function appendKitten(name){
   return kittens.concat("Broom")
 }
 
-function 
+function prependKitten(name){
+  return kittens.slice()
+}
